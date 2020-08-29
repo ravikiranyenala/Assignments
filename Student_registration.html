@@ -2,49 +2,49 @@
 <html>
 
 <title> Ravi web</title>
-<br>
+
 <body>
-<h2>Wel-come to Student Registration page</h2>
-<br><br><br>
+	<h2>Wel-come to Student Registration page</h2>
+	<br><br><br>
 
-<form action="reg_getDetails.php" method="get">
-	<fieldset>
-	<label>Name of the student :</label>
-	<input type="text" name="sName" id="sName" ><br>
+	<form action="reg_getDetails.php" method="get">
+		<fieldset>
+		<label>Name of the student :</label>
+		<input type="text" name="sName" id="sName" ><br>
 
-	<label>Phone Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
-	<input type="number" name="mNum" id="mNum"><br>
+		<label>Phone Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+		<input type="number" name="mNum" id="mNum"><br>
 
-	<label>choice of cource &nbsp;  :</label>
-	<input type="radio" id="Bachelors" name="echo $_GET["mNum"];" value="Bachelor">
-	<label for="Bachelor">Bachelors</label>
-	<input type="radio" id="Masters" name="course" value="Masters">
-	<label for="Masters">Masters</label>
+		<label>choice of cource &nbsp;  :</label>
+		<input type="radio" id="Bachelors" name="course" value="Bachelor">
+		<label for="Bachelors">Bachelors</label>
+		<input type="radio" id="Masters" name="course" value="Masters">
+		<label for="Masters">Masters</label>
+		<br>
+
+		<label>Description    : </label>
+		<textarea rows="2" cols="30">Describe here</textarea><br><br>
+
+		<label>Subject Interest  : </label>
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox">
+		<label>Digital Electronics</label><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox">
+		<label>Data Structures</label><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox">
+		<label>Robotics</label><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox">
+		<label>Machine Learning</label>
 	<br>
+		<br><br>
 
-	<label>Description    : </label>
-	<textarea rows="2" cols="30">Describe here</textarea><br><br>
-
-	<label>Subject Interest  : </label>
-	<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<input type="checkbox">
-	<label>Digital Electronics</label><br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<input type="checkbox">
-	<label>Data Structures</label><br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<input type="checkbox">
-	<label>Robotics</label><br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<input type="checkbox">
-	<label>Machine Learning</label>
-<br>
-	<br><br>
-
-	<input type="submit">
-	</fieldset>
-</form>
+		<input type="submit">
+		</fieldset>
+	</form>
 </body>
 </html>
 
